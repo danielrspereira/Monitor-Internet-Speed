@@ -12,8 +12,9 @@ Internet service providers (ISP) market their products using the maximum connect
 
 The government regulations for the providers vary from country to country. Taking Brazil as an example, IPS are obligated to deliver at least 40% of the contracted maximum speed as instantaneous speed, but the monthly average speed must be at least 80% of it (for download and upload).
 
-Table 1 - Regulation for minimum speed delivery in Brazil (Source: https://www.anatel.gov.br/Portal/exibirPortalPaginaEspecialPesquisa.do?acao&tipoConteudoHtml=1&codNoticia=35544)
+Table 1 - Regulation for minimum speed delivery in Brazil 
 ![image](https://user-images.githubusercontent.com/81535464/113519855-2fd0b100-958f-11eb-8b52-bf628e04e87d.png)
+(Source: https://www.anatel.gov.br/Portal/exibirPortalPaginaEspecialPesquisa.do?acao&tipoConteudoHtml=1&codNoticia=35544)
 
 3) DEVELOPMENT
 
@@ -23,7 +24,16 @@ The application is divided into three Python files:
   - DSLUtils.py: contains the class "Dsl" to measure the download and upload speeds;
   - main.py
   
-  3.1) Class Excel
-  
-
+        3.1) Class Excel
+              3.1.1 - Function get_microsoft_office_version
+                  This function delivers the version of the Office installation by acessing the Windows Registry.
+                  This is important to compose the path for the Excel installation.
+                  If there is no Office installation, the function will return 0.
+                  
+              3.1.2 - Function is_excel_installed
+                  This function delivers a Boolean value checking if Microsoft Excel is installed by acessing the Windows Registry.
+              
+              3.1.3 - Function result_file_exists
+                  
+                  
  

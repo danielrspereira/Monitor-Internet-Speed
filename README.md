@@ -71,6 +71,18 @@ The application is divided into three Python files:
        3.2.1 - Function record_dsl_speed
            
        This function measures the download and the upload speeds and saves the result to the Excel file "result_dsl.xlsx".
+       
+       
+       3.3 - FILE main
+       
+       This file calls the classes Dsl and Excel and runs the function record_dsl_speed every 180 seconds.
+       
+       
+ 4) IMPROVEMENTS
 
-                  
+  - Insert statiscal analyses in the result file
+
+ 5) CONCLUSION
+
+ The method turned out to be quite reliable and useful to check instant and average speed.               
  

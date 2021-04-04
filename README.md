@@ -1,6 +1,6 @@
-# Monitor Internet Connection Speed
+# Monitor the Internet Connection Speed
 
-This repository contains a Python application to monitor the download and upload speed every 3 minutes
+This repository contains a Python application to monitor the download and upload speed every 3 minutes.
 
 1) OBJECTIVE
 
@@ -16,6 +16,8 @@ Table 1 - Regulation for minimum speed delivery in Brazil
 ![image](https://user-images.githubusercontent.com/81535464/113519855-2fd0b100-958f-11eb-8b52-bf628e04e87d.png)
 (Source: https://www.anatel.gov.br/Portal/exibirPortalPaginaEspecialPesquisa.do?acao&tipoConteudoHtml=1&codNoticia=35544)
 
+This application will measure the download and the upload speeds every 3 minutes and save the results to the file "result_dsl.xlsx" in the user's desktop.
+
 3) DEVELOPMENT
 
 The application is divided into three Python files:
@@ -24,16 +26,21 @@ The application is divided into three Python files:
   - DSLUtils.py: contains the class "Dsl" to measure the download and upload speeds;
   - main.py
   
-        3.1) Class Excel
-              3.1.1 - Function get_microsoft_office_version
+       3.1) Class Excel
+             3.1.1 - Function get_microsoft_office_version
                   This function delivers the version of the Office installation by acessing the Windows Registry.
                   This is important to compose the path for the Excel installation.
                   If there is no Office installation, the function will return 0.
                   
-              3.1.2 - Function is_excel_installed
+             3.1.2 - Function is_excel_installed
                   This function delivers a Boolean value checking if Microsoft Excel is installed by acessing the Windows Registry.
               
-              3.1.3 - Function result_file_exists
+             3.1.3 - Function result_file_exists
+                  This function checks if the result Excel file "result_dsl.xlsx" exists.
                   
+             3.1.4 - Function create_excel_file
+                  This function creates the result file "result_dsl.xlsx" with the expected columns names.
+                  ![image](https://user-images.githubusercontent.com/81535464/113520376-ed10d800-9592-11eb-93b7-da8cd12e29d6.png)
+
                   
  

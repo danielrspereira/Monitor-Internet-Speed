@@ -27,9 +27,12 @@ The application is divided into three Python files:
   - main.py
   
        3.1 - CLASS Excel
+       
        This class uses the packages xlsxwriter, os and winreg
                                                   
         pip install xlswriter
+        
+        pip install winreg
              
        3.1.1 - Function get_microsoft_office_version
            This function delivers the version of the Office installation by acessing the Windows Registry.

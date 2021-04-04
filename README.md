@@ -14,6 +14,7 @@ The government regulations for the providers vary from country to country. Takin
 
 Table 1 - Regulation for minimum speed delivery in Brazil 
 ![image](https://user-images.githubusercontent.com/81535464/113519855-2fd0b100-958f-11eb-8b52-bf628e04e87d.png)
+
 (Source: https://www.anatel.gov.br/Portal/exibirPortalPaginaEspecialPesquisa.do?acao&tipoConteudoHtml=1&codNoticia=35544)
 
 This application will measure the download and the upload speeds every 3 minutes and save the results to the file "result_dsl.xlsx" in the user's desktop.

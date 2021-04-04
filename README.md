@@ -26,7 +26,10 @@ The application is divided into three Python files:
   - DSLUtils.py: contains the class "Dsl" to measure the download and upload speeds;
   - main.py
   
-       3.1) Class Excel
+       3.1 - CLASS Excel
+       This class uses the packages xlsxwriter, os and winreg
+                                                  
+        pip install xlswriter
              
        3.1.1 - Function get_microsoft_office_version
            This function delivers the version of the Office installation by acessing the Windows Registry.
@@ -42,6 +45,12 @@ The application is divided into three Python files:
        3.1.4 - Function create_excel_file
            This function creates the result file "result_dsl.xlsx" with the expected columns names.
            ![image](https://user-images.githubusercontent.com/81535464/113520376-ed10d800-9592-11eb-93b7-da8cd12e29d6.png)
+       
+       
+       3.2 - CLASS Dsl
+       
+       3.2.1 - Function record_dsl_speed
+           This function uses the package "speedtest"
 
                   
  

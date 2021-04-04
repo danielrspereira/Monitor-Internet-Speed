@@ -4,9 +4,16 @@ This repository contains a Python application to monitor the download and upload
 
 1) Objective
 
-The objective of this application is to help internet users to check if the internet provider is delivering the contracted connection speed.
+The objective of this application is to help internet users to check if the internet service provider is delivering the contracted connection speed.
 
 2) Introduction
 
-Internet providers use the maximum connection speed that can be achieved for marketing their products. This strategy is deceiving, once most of the time the delivered quality is way below it. The regulations vary from country to country. In Brazil internet providers are obligated to deliver 80% of the contracted maximum connection speed as a month average and only 40% for the instantaneous speed.
+Internet service providers (ISP) market their products using the maximum connection speed that can be achieved prefixing it with a language like "up to". This strategy is deceiving, once the connection depends on several factors and may oscilate considerably in short periods of time. It's also important to emphasize that advertised speeds are based on wired connections to the modem. The internet connection speed will dip with a Wi-Fi router.
+
+The government regulations for the providers vary from country to country. Taking Brazil as an example, IPS are obligated to deliver at least 40% of the contracted maximum speed as instantaneous speed, but the monthly average speed must be at least 80% of it (for download and upload).
+
+This application will 
+
+![image](https://user-images.githubusercontent.com/81535464/113519747-8db0c900-958e-11eb-8e23-370c3444a608.png)
+
  

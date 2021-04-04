@@ -35,17 +35,23 @@ The application is divided into three Python files:
         pip install winreg
              
        3.1.1 - Function get_microsoft_office_version
+           
            This function delivers the version of the Office installation by acessing the Windows Registry.
+           
            This is important to compose the path for the Excel installation.
+           
            If there is no Office installation, the function will return 0.
                   
        3.1.2 - Function is_excel_installed
+           
            This function delivers a Boolean value checking if Microsoft Excel is installed by acessing the Windows Registry.
               
        3.1.3 - Function result_file_exists
+           
            This function checks if the result Excel file "result_dsl.xlsx" exists.
                   
        3.1.4 - Function create_excel_file
+           
            This function creates the result file "result_dsl.xlsx" with the expected columns names.
            ![image](https://user-images.githubusercontent.com/81535464/113520376-ed10d800-9592-11eb-93b7-da8cd12e29d6.png)
        

@@ -12,10 +12,7 @@ Internet service providers (ISP) market their products using the maximum connect
 
 The government regulations for the providers vary from country to country. Taking Brazil as an example, IPS are obligated to deliver at least 40% of the contracted maximum speed as instantaneous speed, but the monthly average speed must be at least 80% of it (for download and upload).
 
-	Average speed (download and upload)	Instantaneous speed (download and upload)
-From November 2012	60% of maximum speed	20% of maximum speed
-From November 2013	70% of maximum speed	30% of maximum speed
-From November 2014	80% of maximum speed	40% of maximum speed
+Table 1 - Regulation for minimum speed delivery in Brazil (Source: https://www.anatel.gov.br/Portal/exibirPortalPaginaEspecialPesquisa.do?acao&tipoConteudoHtml=1&codNoticia=35544)
 ![image](https://user-images.githubusercontent.com/81535464/113519855-2fd0b100-958f-11eb-8b52-bf628e04e87d.png)
 
 

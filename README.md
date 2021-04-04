@@ -61,14 +61,15 @@ The application is divided into three Python files:
        
        This class uses the package speedtest, pandas and datetime
        
-              pip install speedtest-cli
+        pip install speedtest-cli
               
-              pip install pandas
+        pip install pandas
               
        Please notice that the need package is "speedtest-cli" and not only "speedtest"!
        
        3.2.1 - Function record_dsl_speed
-           This function uses the package "speedtest"
+           
+       This function measures the download and the upload speeds and saves the result to the Excel file "result_dsl.xlsx".
 
                   
  

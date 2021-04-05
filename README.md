@@ -8,9 +8,9 @@ The objective of this application is to help internet users to check if the inte
 
 2) INTRODUCTION
 
-Internet service providers (ISP) market their products using the maximum connection speed that can be achieved prefixing it with a language like "up to". This strategy is deceiving, once the connection depends on several factors and may oscilate considerably in short periods of time. It's also important to emphasize that advertised speeds are based on wired connections to the modem. The internet connection speed will dip with a Wi-Fi router.
+Internet service providers (ISP) market their products using the maximum connection speed that can be achieved prefixing it with a language like "up to". This strategy is deceiving, once the connection quality depends on several factors and may oscilate considerably in short periods of time. It's also important to emphasize that advertised speeds are based on wired connections to the modem. The speed will dip with a Wi-Fi router.
 
-The government regulations for the providers vary from country to country. Taking Brazil as an example, IPS are obligated to deliver at least 40% of the contracted maximum speed as instantaneous speed, but the monthly average speed must be at least 80% of it (for download and upload).
+The government regulations for the providers vary from country to country. Taking Brazil as an example, IPS are obligated to deliver at least 40% of the contracted maximum speed as instantaneous speed, but the monthly average must be at least 80% for download and upload.
 
 Table 1 - Regulation for minimum speed delivery in Brazil 
 ![image](https://user-images.githubusercontent.com/81535464/113519855-2fd0b100-958f-11eb-8b52-bf628e04e87d.png)
@@ -78,11 +78,21 @@ The application is divided into three Python files:
        This file calls the classes Dsl and Excel and runs the function record_dsl_speed every 180 seconds.
        
        
+ 4) RESULTS
+
+The result was quite accurate comparing with online speed testers.
+Please see below a cutout from the output file.
+![image](https://user-images.githubusercontent.com/81535464/113564714-1b7dca00-960a-11eb-91cf-1ed4a8f5f4b9.png)
+
+ 
  4) IMPROVEMENTS
 
-  - Insert statiscal analyses in the result file
+  - Insert statistical analyses in the result file
 
  5) CONCLUSION
 
- The method turned out to be quite reliable and useful to check instant and average speed.               
+ The method turned out to be quite reliable and useful to check instant and average speed. 
+ The test result may not work as a evidence against your IPS to claim for your rights.
+ This application also makes possible a comparison between cable and wireless connections.
+ 
  
